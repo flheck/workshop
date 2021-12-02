@@ -1,0 +1,6 @@
+- <!DOCTYPE html> — den Dokumenttyp. Früher, als HTML noch jung war (1991/92), war dies dazu gedacht, um dem Browser mitzuteilen, welchen Regeln er zu folgen hatte. Das konnte z. B. sein, dass der Browser automatisch die Fehler überprüft und andere nützliche Dinge. Wie auch immer, heutzutage achtet niemand mehr wirklich darauf, es muss jedoch vorhanden sein, damit alles richtig funktioniert.
+- <html></html> — das <html> Element. Dieses Element umhüllt den ganzen Inhalt. Manchmal wird es auch als root-Element bezeichnet
+- <head></head> — das <head> Element. In dieses Element ist alles eingeschlossen, was nicht auf der Seite angezeigt wird. Dies enthält Informationen wie Schlüsselwörter, eine Seitenbeschreibung, welche in Suchmaschinen erscheint, CSS um unseren Inhalt zu designen, usw.
+- <body></body> — das <body> Element. Dies beinhaltet alles, was die Betrachter sehen, wenn sie die Webseite besuchen, egal ob Text, Bilder, Videos, Audiodateien, usw.
+- <meta charset="utf-8"> — Dieses Element setzt die Zeichenkodierung deines Dokuments auf utf-8, was die Buchstaben von fast allen menschlichen Sprachen beinhaltet. Umlaute wie Ä und Ü werden sonst nicht richtig angezeigt.
+- <title></title> — Dies setzt den Titel der Seite, welcher im Tab angezeigt wird. Dieser wird auch gebraucht, wenn jemand ein Lesezeichen erstellt.
