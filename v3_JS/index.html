@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meine Testseite</title>
+  </head>
+  <body>
+      <h1>Meine erste Testseite</h1>
+      <p style="color:red;">Hello World</p>
+      <p class="classStyle">Hello World - Class</p>
+      <p class="classStyle">Hello World - Class</p>
+      <p id="idStyle">Hello World - Id</p>
+      <p id="js">Hello World -</p>
+      <p id="para1">Irgendein Text</p>
+  <button onclick="changeColor('blue');">Blau</button>
+  <button onclick="changeColor('red');">Rot</button>
+    <img src="./assets/test.jpg" alt="Mein Testbild">
+  </body>
+</html>
+
+<script>
+  const tag = document.getElementById("js");
+  console.log("1.: ", tag)
+
+  tag.innerText = tag.innerText + " Added Text";
+  console.log("2.: ", tag)
+
+  function changeColor(newColor) {
+    var elem = document.getElementById("para1");
+    elem.style.color = newColor;
+  }
+
+</script>
